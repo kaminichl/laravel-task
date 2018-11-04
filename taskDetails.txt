@@ -1,0 +1,68 @@
+1. Controller: 
+
+API: 
+FilmController
+CommentController
+
+Frontend:
+FilmController
+
+Backend:
+AdminController
+
+2. Models: User, Film and Comment (Relations defined)
+
+3. Seeder: User and Films seeder, Done basic seeding without factory
+
+4. DB schema: Users, Films, Comments
+
+
+5. Request : 
+FilmRequest: Validation rules for Filmcreation
+FilmUpdateRequest: authorization true and validation rules
+FilmDeleteRequest: Authorization  true
+CommentRequest: Validation rules for comments
+
+
+6. Middleware: Check admin Middleware
+
+7. Services : Slug Creation as a service
+
+8. Routes: Backend, Auth and frontend Routes
+
+9. Exception: Updated exception class to send response as json when ajax requested
+
+10. Template:
+Admin: Bootstrap4 SBadmin template used
+Frontend: Bootstrap4 landy template used
+
+11. Vue component
+Vuejs Version: 2.5.7
+
+Packages:
+Vue Router
+Vue multiselect
+Vue star rating
+Vue datepicker
+
+Front end components: 
+FilmCreate
+FlimEdit
+FilmsIndex
+FilmView
+
+Backend end components: 
+BackendFilmCreate
+BackendFlimEdit
+BackendFilmsIndex
+BackendFilmView
+
+
+Pending:
+1. Admin Authorization for update,delete actions
+2. Comments to restrict to users alone
+3. Comments DB seeder
+
+
+
+
